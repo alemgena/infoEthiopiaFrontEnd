@@ -1,0 +1,61 @@
+
+.profile
+{
+
+  flex-direction: column;
+  width:80vh;
+  height: 60vh;
+  .profileImage
+  {
+    height: 20vh;
+     align-items: center;
+    background-color: lightslategray;
+    .image
+    {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .NameHolder
+  {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .AdressHolder
+  {
+    position: absolute;
+    top:65%;
+    ul 
+    {
+      display: inline-flex;
+      flex-wrap: wrap;
+      li 
+      {
+        margin: 30px;
+       
+      }
+    }
+  }
+  .changePassword
+  { 
+    position: absolute;
+    cursor:pointer;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    button 
+    {
+      border:none;
+      font-weight: bold;
+      color: white;
+      background-color:$color2;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.slider__container,
+.slider__container__top {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  // background-size: cover;
+
+  .slider__image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+    object-fit: contain;
+    // height: 100%;
+  }
+}
+.slider__container__top {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.slider__container {
+  max-height: 45vh;
+  // min-height: 20vh;
+  height: fit-content;
+  // height: 40vh;
+  margin: auto;
+  width: 80%;
+  // border:5px solid black
+}

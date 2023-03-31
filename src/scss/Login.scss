@@ -1,0 +1,43 @@
+$media-desktop: "only screen and (max-width : 1024px)";
+$media-tablet: "only screen and (max-width : 768px)";
+$media-mobile: "only screen and (max-width : 600px)";
+$media-mobile-sm: "only screen and (max-width : 480px)";
+
+.FormHolder {
+  background-color: white;
+  // padding: 3vh;
+
+  // position: fixed;
+
+  // .bottomForm {
+  //   margin-top: 5px;
+  //   .bottom1 {
+  //   }
+  // }
+}
+.FormHolderDesktop {
+  background-color: white;
+  width: 100%;
+
+  // .bottomForm {
+  //   .bottom {
+  //     margin-top: 40px;
+  //   }
+  // }
+}
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomForm {
+  display: flex;
+  font-size: 1rem;
+  color: hsl(0deg 0% 37%);
+  justify-content: space-between;
+  padding: 8px;
+  div {
+    cursor: pointer;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,88 @@
+.Drawer {
+  overflow-y: auto;
+  display: none;
+}
+.DrawerList {
+  background-color: $colorOp;
+  color: $color3;
+  height: 100vh;
+  display: flex;
+  line-height: 6vh;
+  flex-direction: column;
+  z-index: 10000;
+  .imageHolder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    .ImageLogo {
+      justify-content: center;
+      width: 200px;
+      height: 200px;
+      border: 3px solid rgb(20, 61, 89);
+      //   margin-left: 20%;
+      background-color: white;
+      border-radius: 100%;
+    }
+  }
+
+  .mainlistHolder {
+    flex-grow: 1;
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 2vh 2vh 0;
+    // background-color: $color1;
+    font-size: larger;
+    // line-height: 8vh;
+    flex-direction: column;
+    justify-content: space-around;
+    // height: 100%;
+
+    .Contact {
+      .title {
+        color: $color3;
+        font-weight: bold;
+      }
+    }
+    .maintitle {
+      flex-grow: 2;
+    }
+  }
+}
+.ListDrawer {
+  // margin: 2em;
+  .text {
+    color: $color3;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 3vh;
+  }
+}
+.contactus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactus a {
+  color: rgb(20, 61, 89);
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.drawerLink {
+  display: flex !important;
+  gap: 2vh !important;
+  align-items: center;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.copyright {
+  font-size: 10px;
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: center;
+}
